@@ -1,0 +1,62 @@
+# Welcome to Jekyll!
+
+# Website settings
+title: 不同凡想～
+description: 编编码，听听歌
+keywords: zhangfan, 张凡，zhangfan's blog, 张凡的博客
+baseurl: # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
+url: http://sheilazhang.github.io/Jalpc  # url should be changed to 'http://www.jack003.com/homepage' as before
+# url: http://127.0.0.1:4000
+img_path: /Jalpc/static/assets/img/blog  # url should be changed to '/homepage/static/assets/img/blog' as before
+
+# author -- index page "about me" section
+author:  # change following line to your infomation.
+  name: 张凡  # Be used at blog posts' author.
+  first_name: Zhang  # Be used at index page about me section.
+  last_name: Fan  # Be used at index page about me section.
+  #在线简历，如果没有可以不填
+  cv: #http://cv.jack003.com  # A online CV can be printed as PDF, leave blank if you don't have now
+  email: zfsheila@gmail.com  # Leave blank if you don't have now
+  facebook_username:   # Leave blank if you don't have now
+  github_username: sheilazhang  # Leave blank if you don't have now
+  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
+
+  # 这里填写技能相关的图标
+  skill_icon1:
+    - name: icon-apache
+    - name: fa-linux
+  skill_icon2:
+    - name: fa-linux
+    - name: icon-apache
+  desc: Introduce myself will be here.
+
+# comment
+# 申请一个disqus账号，用于评论
+disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+  name: 
+  public_key:
+
+# analytics
+# 站点分析账号，在google和百度都可以申请。
+## google analytics
+ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
+  # id:
+
+## growingIO
+gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
+  # id:
+
+## donation
+# 是否接受赞助
+donation: false  # type 'on'/'off' to choice display donation button at post page or not
+
+
+# Build settings
+encoding: utf-8
+
+# other settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

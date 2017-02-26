@@ -1,0 +1,75 @@
+diff --git a/CNAME b/CNAME
+index e69de29..73b129e 100755
+--- a/CNAME
++++ b/CNAME
+@@ -0,0 +1 @@
++z-f.me
+diff --git a/_config.yml b/_config.yml
+index fb4d983..2d2d3e2 100755
+--- a/_config.yml
++++ b/_config.yml
+@@ -1,24 +1,27 @@
+ # Welcome to Jekyll!
+ 
+ # Website settings
+-title: Jalpc
+-description: Jack's blog,use Jekyll and github pages.
+-keywords: Jack,Jalpc,blog,Jekyll,github,gh-pages
++title: 不同凡想～
++description: 编编码，听听歌
++keywords: zhangfan, 张凡，zhangfan's blog, 张凡的博客
+ baseurl:  /Jalpc # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
+-url: http://jarrekk.github.io/Jalpc  # url should be changed to 'http://www.jack003.com/homepage' as before
++url: http://sheilazhang.github.io/Jalpc  # url should be changed to 'http://www.jack003.com/homepage' as before
+ # url: http://127.0.0.1:4000
+ img_path: /Jalpc/static/assets/img/blog  # url should be changed to '/homepage/static/assets/img/blog' as before
+ 
+ # author -- index page "about me" section
+ author:  # change following line to your infomation.
+-  name: GitHub  # Be used at blog posts' author.
+-  first_name: Hub  # Be used at index page about me section.
+-  last_name: Git  # Be used at index page about me section.
+-  cv: http://cv.jack003.com  # A online CV can be printed as PDF, leave blank if you don't have now
+-  email: me@jack003.com  # Leave blank if you don't have now
+-  facebook_username: jiakunnj  # Leave blank if you don't have now
+-  github_username: jarrekk  # Leave blank if you don't have now
++  name: 张凡  # Be used at blog posts' author.
++  first_name: Zhang  # Be used at index page about me section.
++  last_name: Fan  # Be used at index page about me section.
++  #在线简历，如果没有可以不填
++  cv: #http://cv.jack003.com  # A online CV can be printed as PDF, leave blank if you don't have now
++  email: zfsheila@gmail.com  # Leave blank if you don't have now
++  facebook_username:   # Leave blank if you don't have now
++  github_username: sheilazhang  # Leave blank if you don't have now
+   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
++
++  # 这里填写技能相关的图标
+   skill_icon1:
+     - name: icon-apache
+     - name: fa-linux
+@@ -28,11 +31,13 @@ author:  # change following line to your infomation.
+   desc: Introduce myself will be here.
+ 
+ # comment
++# 申请一个disqus账号，用于评论
+ disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+-  name: jalpc
+-  public_key: tj2MPaNlHMONwTH5bGDNSXyaBpW7q282MeUzh5CwcjJerNhK8Kxk3aWo7IckzTX7
++  name: 
++  public_key:
+ 
+ # analytics
++# 站点分析账号，在google和百度都可以申请。
+ ## google analytics
+ ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
+   # id:
+@@ -42,7 +47,8 @@ gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your
+   # id:
+ 
+ ## donation
+-donation: on  # type 'on'/'off' to choice display donation button at post page or not
++# 是否接受赞助
++donation: false  # type 'on'/'off' to choice display donation button at post page or not
+ 
+ 
+ # Build settings
